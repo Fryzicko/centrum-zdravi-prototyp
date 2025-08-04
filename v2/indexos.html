@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Centrum zdraví Brno – Světlý návrh</title>
+  <meta name="description" content="Světlá moderní úvodní stránka pro Centrum zdraví Brno. Diagnostika Oberon, magnetoterapie, bioinformační péče." />
+  <link rel="stylesheet" href="stylos.css" />
+</head>
+<body>
+
+  <!-- Promo bar -->
+  <div class="promo-bar">
+    <div class="promo-inner container">
+      <div>
+        <strong>Prázdninová akce:</strong> Analýza Oberon + Kapka krve + magnetoterapie zdarma za <strong>2500 Kč</strong>
+      </div>
+      <div>
+        <a href="#rezervace" class="small-cta">Rezervovat nyní</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Header -->
+  <header class="site-header">
+    <div class="container header-grid">
+      <a href="#" class="logo">
+        <div class="logo-icon" aria-hidden="true">
+          <!-- jednoduchý kříž + srdce -->
+          <svg width="32" height="32" viewBox="0 0 64 64" aria-label="Logo" fill="none" stroke="currentColor" stroke-width="2">
+            <circle cx="32" cy="32" r="30" stroke-opacity="0.2"></circle>
+            <path d="M32 18v28M18 32h28" stroke-linecap="round"/>
+            <path d="M42 24c0-4.418-3.582-8-8-8s-8 3.582-8 8c0 7.333 8 12 8 12s8-4.667 8-12z" fill="currentColor" stroke="none" opacity="0.15"/>
+          </svg>
+        </div>
+        <span class="logo-text">Centrum zdraví Brno</span>
+      </a>
+      <nav class="main-nav">
+        <a href="#sluzby">Služby</a>
+        <a href="#proces">Jak to funguje</a>
+        <a href="#akce">Akce</a>
+        <a href="#zkušenosti">Zkušenosti</a>
+        <a href="#kontakt">Kontakt</a>
+      </nav>
+      <div class="actions">
+        <a href="#rezervace" class="btn-primary">Objednat</a>
+        <button class="btn-outline" aria-label="Otevřít mobilní menu" id="menu-toggle">Menu</button>
+      </div>
+    </div>
+    <div class="mobile-menu" id="mobile-menu">
+      <nav>
+        <a href="#sluzby">Služby</a>
+        <a href="#proces">Jak to funguje</a>
+        <a href="#akce">Akce</a>
+        <a href="#zkušenosti">Zkušenosti</a>
+        <a href="#kontakt">Kontakt</a>
+        <a href="#rezervace" class="btn-primary block">Objednat</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero-alt">
+    <div class="container hero-card">
+      <div class="hero-text">
+        <div class="label">Prázdninová nabídka</div>
+        <h1>Individuální diagnostika a regenerace zdraví</h1>
+        <p>Začněte s komplexní analýzou těla pomocí Oberon, měřením z kapky krve a cílenou magnetoterapií. Nabídka je časově omezena.</p>
+        <div class="hero-ctas">
+          <a href="#rezervace" class="btn-primary">Zarezervovat vyšetření</a>
+          <a href="#o-nas" class="btn-secondary">Více o nás</a>
+        </div>
+        <div class="trustline">
+          <span class="badge">Overeno klienty</span>
+          <span>Více než 300 spokojených klientů</span>
+        </div>
+      </div>
+      <div class="hero-visual">
+        <!-- stylizovaný symbol + info -->
+        <div class="visual-inner">
+          <div class="circle-med">
+            <div class="plus">+</div>
+          </div>
+          <div class="visual-text">
+            <p><strong>Komplexní přístup:</strong> Diagnostika → Konzultace → Regenerace</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Jak to funguje -->
+  <section id="proces" class="steps">
+    <div class="container">
+      <h2 class="section-title">Jak to probíhá</h2>
+      <p class="section-sub">Tři jednoduché kroky k lepšímu zdraví.</p>
+      <div class="stepper">
+        <div class="step">
+          <div class="icon-circle">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M12 2a10 10 0 100 20 10 10 0 000-20z" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M12 6v6l4 2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </div>
+          <h3>Rezervace</h3>
+          <p>Zvolíte termín a službu – rychle a bez zbytečného čekání.</p>
+        </div>
+        <div class="step">
+          <div class="icon-circle">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M9 11l3 3L22 4" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M21 12v7a2 2 0 01-2 2H5a2 2 0 01-2-2v-7" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M7 10V6a5 5 0 0110 0v4" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </div>
+          <h3>Diagnostika</h3>
+          <p>Oberon, krevní měření, konzultace – zjistíme, co vaše tělo skutečně potřebuje.</p>
+        </div>
+        <div class="step">
+          <div class="icon-circle">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M12 8v8M8 12h8" stroke-linecap="round" stroke-linejoin="round"/>
+              <circle cx="12" cy="12" r="10" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </div>
+          <h3>Regenerace</h3>
+          <p>Cílené sezení a doporučená péče pro obnovení rovnováhy.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Služby -->
+  <section id="sluzby" class="services-alt">
+    <div class="container">
+      <h2 class="section-title">Naše služby</h2>
+      <p class="section-sub">Kombinujeme moderní diagnostiku s individuálním přístupem.</p>
+
+      <div class="service-row">
+        <div class="service-text">
+          <div class="service-label">1</div>
+          <h3>Analýza Oberon</h3>
+          <p>Detailní bioinformatická diagnostika pro zmapování vnitřní rovnováhy a skrytých dysbalancí.</p>
+          <a href="#" class="link-more">Zjistit více →</a>
+        </div>
+        <div class="service-graphic">
+          <div class="icon-large">🔬</div>
+        </div>
+      </div>
+
+      <div class="service-row reverse">
+        <div class="service-text">
+          <div class="service-label">2</div>
+          <h3>Měření z kapky krve</h3>
+          <p>Rychlé, neinvazivní zhodnocení aktuálního stavu organismu pomocí malého vzorku.</p>
+          <a href="#" class="link-more">Zjistit více →</a>
+        </div>
+        <div class="service-graphic">
+          <div class="icon-large">💧</div>
+        </div>
+      </div>
+
+      <div class="service-row">
+        <div class="service-text">
+          <div class="service-label">3</div>
+          <h3>Bioinformační detoxikace</h3>
+          <p>Podpora těla při očistě od nežádoucích vlivů a navrácení přirozené funkce.</p>
+          <a href="#" class="link-more">Zjistit více →</a>
+        </div>
+        <div class="service-graphic">
+          <div class="icon-large">🧪</div>
+        </div>
+      </div>
+
+      <div class="service-row reverse">
+        <div class="service-text">
+          <div class="service-label">4</div>
+          <h3>Magnetoterapie</h3>
+          <p>Regenerační podpora s cílem stimulovat přirozené hojení a úlevu.</p>
+          <a href="#" class="link-more">Zjistit více →</a>
+        </div>
+        <div class="service-graphic">
+          <div class="icon-large">🌀</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Promo akce -->
+  <section id="akce" class="highlight-offer">
+    <div class="container">
+      <div class="offer-card">
+        <div class="offer-info">
+          <h2>Prázdninová akce</h2>
+          <p>Analýza Oberon + Kapka krve + 1 hodina magnetoterapie zdarma — vše za <strong>2500 Kč</strong>.</p>
+          <a href="#rezervace" class="btn-primary">Rezervovat nyní</a>
+        </div>
+        <div class="offer-details">
+          <ul>
+            <li>Komplexní diagnostika</li>
+            <li>Osobní konzultace</li>
+            <li>Cílená regenerace</li>
+            <li>Omezené množství termínů</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonial -->
+  <section id="zkušenosti" class="testimonials-alt">
+    <div class="container">
+      <h2 class="section-title">Zkušenosti klientů</h2>
+      <div class="carousel">
+        <div class="testimonial-card">
+          <p>„Díky této komplexní diagnostice jsem pochopila, proč se necítím dobře. Postup byl individuální a srozumitelný.“</p>
+          <div class="author">— Petra V.</div>
+        </div>
+        <div class="testimonial-card">
+          <p>„Profesionalita, jasné vysvětlení výsledků a to, že se na mě dívali jako na celek, mě zaujalo nejvíc.“</p>
+          <div class="author">— Karel H.</div>
+        </div>
+        <div class="testimonial-card">
+          <p>„Cítím energii zpátky. Doporučený plán a následná péče mi opravdu pomohly stabilizovat zdraví.“</p>
+          <div class="author">— Lucie P.</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Kontakt / rezervace -->
+  <section id="kontakt" class="contact-alt">
+    <div class="container contact-grid">
+      <div class="contact-form">
+        <h2>Rychlá rezervace</h2>
+        <p>Vyplňte a my se vám ozveme s potvrzením termínu.</p>
+        <form>
+          <div class="field">
+            <label for="alt-name">Jméno</label>
+            <input type="text" id="alt-name" placeholder="Jméno" required/>
+          </div>
+          <div class="field">
+            <label for="alt-email">E-mail</label>
+            <input type="email" id="alt-email" placeholder="E-mail" required/>
+          </div>
+          <div class="field">
+            <label for="alt-phone">Telefon</label>
+            <input type="tel" id="alt-phone" placeholder="Telefon" required/>
+          </div>
+          <div class="field">
+            <label for="alt-service">Služba</label>
+            <select id="alt-service" required>
+              <option value="">Vyberte službu</option>
+              <option>Analýza Oberon</option>
+              <option>Měření z kapky krve</option>
+              <option>Bioinformační detoxikace</option>
+              <option>Magnetoterapie</option>
+            </select>
+          </div>
+          <button class="btn-primary" type="submit">Požádat o rezervaci</button>
+        </form>
+      </div>
+      <div class="contact-info-alt">
+        <h2>Kontakt</h2>
+        <p><strong>Adresa:</strong> Malinovského nám. 603/4, Brno 602 00</p>
+        <p><strong>Tel:</strong> +420 123 456 789</p>
+        <p><strong>E-mail:</strong> info@centrumzdravibrno.cz</p>
+        <div class="map-placeholder">[Vložit mapu]</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer-alt">
+    <div class="container footer-grid-alt">
+      <div class="col">
+        <h4>Centrum zdraví Brno</h4>
+        <p>Individuální péče. Transparentní výsledky. Důraz na celostní přístup.</p>
+      </div>
+      <div class="col">
+        <h4>Odkazy</h4>
+        <ul>
+          <li><a href="#sluzby">Služby</a></li>
+          <li><a href="#proces">Proces</a></li>
+          <li><a href="#akce">Akce</a></li>
+          <li><a href="#kontakt">Kontakt</a></li>
+        </ul>
+      </div>
+      <div class="col">
+        <h4>Otevírací doba</h4>
+        <p>Po–Pá: 9:00–18:00</p>
+        <p>Sobota: dle dohody</p>
+      </div>
+    </div>
+    <div class="subfoot">
+      © 2025 Centrum zdraví Brno. Všechna práva vyhrazena.
+    </div>
+  </footer>
+
+  <script>
+    // jednoduché togglování mobilního menu
+    const menuBtn = document.getElementById('menu-toggle');
+    const mobile = document.getElementById('mobile-menu');
+    menuBtn?.addEventListener('click', () => {
+      mobile.classList.toggle('open');
+    });
+  </script>
+</body>
+</html>
